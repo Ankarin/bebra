@@ -1,0 +1,36 @@
+{
+  "name": "@glaife/ai",
+  "version": "0.1.0",
+  "description": "Security and observability for AI agents",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "ai": "^6.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "ai": ">=5.0.0"
+  },
+  "keywords": ["ai", "agents", "security", "observability", "vercel-ai"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaife/glaife"
+  }
+}
