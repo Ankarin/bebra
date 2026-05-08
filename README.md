@@ -1,10 +1,21 @@
-# bebra
+# Composio AI Assistant
 
-Glaife monorepo (early scaffold) — apps/web + packages/ai (Bun workspaces).
+AI Assistant workspace built with Next.js, Drizzle, and Composio integrations. 
+This is a monorepo containing the Next.js web application and underlying AI packages using Bun workspaces.
+
+## Stack
+- TypeScript
+- Next.js (App Router)
+- React
+- Drizzle ORM
+- Postgres
+- Vercel AI SDK
+- Composio (Tool integrations)
+- shadcn/ui & TailwindCSS
 
 ## Run
 
 ```bash
 bun install
-bun run dev
+bun run dev:all
 ```
